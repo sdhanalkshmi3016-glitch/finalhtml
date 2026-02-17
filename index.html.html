@@ -1,0 +1,262 @@
+<!DOCTYPE html>>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scal=1.0">
+   
+    <title> FINAL HTML</title>
+    <style>
+    BODY {
+        text-align: center;
+        margin-top: 100PX;
+    }
+    .movetext {
+        position: relative;
+        animation: moveright 3s infinite alternate;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: brown;
+        text-shadow: 2PX 2PX 5PX red;
+    }
+    @keyframes moveright {
+        0% {
+            left: -200PX;
+
+        }
+        50% {
+            left: 0PX;
+        }
+        100% {
+            left: 200PX;
+        }
+    }
+        BODY {
+            margin: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        NAV {
+            background-color: rgb(226, 29, 144);
+            color: blue;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10PX 20PX;
+            position: sticky;
+            top: 0;
+        }
+        NAV UL {
+            list-style:none;
+            DISPLY:FLEX;
+            GAP:20PX
+        }
+        NAV UL LI A{
+            color: blueviolet;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .CONTAINER {
+            display: inline;
+            height:100PX;
+           
+            justify-content: center;
+            align-items: center;
+        }
+        .BOX {
+            width: 100px;
+            height: 100PX;
+            background-color: aqua;
+            margin: 10PX;
+            display: inline;
+            border: 2PX solid black;
+            cursor: pointer;
+            border-radius: 10PX;
+        }
+        .HERO {
+            background: url("indipendence\ day\ pic\ 2025.jpg") CENTER/COVER;
+            height: 350PX;
+            display: flex;
+            justify-content: center;
+            color: rgb(220, 241, 30);
+            text-align: center;
+            position: relative;
+            text-shadow: 3PX 3PX 3PX royalblue;
+        }
+        .HERO::after  {
+            
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgb(from color r g b);
+        }
+        .HERO-CONTENT {
+            position: relative;
+        }
+        .FEATURE-BOX {
+            width:50;
+            background: rgb(111, 82, 163);
+            padding: 20px;
+            border-radius: 10PX;
+            text-align: center;
+            box-shadow: 0 4PX 8px rgba(red, green, blue, alpha);
+        }
+
+        .GALLERY img {
+            width: 20%;
+            border-radius: 10PX;
+            transition: TRANSFORM 0.4S, BOX-SHADO 0.4S;
+            cursor: pointer;
+        }
+        .GALLERY image:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8PX 20px rgba(red, green, blue, alpha);
+        }
+      
+        table {
+            WIDTH:90%
+            MARGIN:30PX AUTO;
+            BORDER-COLLAPSE:COLLAPSE;
+            BORDER:2PX SOLID BLACK;
+           
+        }
+        TH,td {
+            border: 1px solid #333;
+            padding: 10PX;
+            text-align: center;
+        }
+        TH {
+            background: #f5f;
+            color: rgb(54, 135, 206);
+            border: 3PX solid black;
+        }
+        TR :hover{
+            background-color: blue;
+            cursor: pointer;
+            border: 4PX solid black;
+        }
+        caption {
+            caption-side: top;
+            margin-bottom: 12px;
+            
+        }
+        .REGISTER-BTN {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 20PX;
+            text-align: center;
+            background: #13e613;
+            color: rgb(207, 15, 15);
+            text-decoration: none;
+            border-radius: 30PX;
+            animatION:PULSE 1.5S INFINITE;
+
+        }
+      
+        @keyframes PULSE {
+            0%{transform: scale(1);}
+            50%{transform: scale(1.1);}
+            100{transform:scale(1);}
+        }
+        footer {
+            background: #f5f;
+            color: rgb(216, 25, 41);
+            text-align: center;
+            padding: 15px;
+        }
+        @media(MAX-WIDTH:768PX) {
+            NAV UL {
+                flex-direction: column;
+            }
+            .GALLERY {
+                grid-template-columns: repeat(1,1FR);
+            }
+            .FEATURES {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+     </head>
+     <body>
+        <h2 class="movetext">WELCOME TO ALL</h2>
+        <NAV class="HEADER">
+            <H2> EVENTS</H2>
+            <DIV class="MENU-BOX">
+            <DIV class="CONTAINER">
+            <UL>
+                
+            <DIV class="BOX">HOME</DIV>
+            <DIV class="BOX">EVENTS</DIV>
+            <DIV class="BOX">GALLERY</DIV>
+           <DIV class="BOX">
+            <A href="DAY5 1.HTML">REGISTER</A></DIV>
+            </UL>
+            </DIV>
+            </DIV>
+        </NAV>
+        <section class="HERO">
+            <DIV class="HERO-CONTENT">
+                <H1> ANNUVAL CLG EVENTS</H1>
+                <P> JION. ENJOY . CELEBRATE</P>
+            </DIV>
+        </section>
+        <section class="FEATURES">
+            <DIV class="FEATURE-BOX">
+                <H3> TECH FEST</H3>
+                <P> CODING & INNOVATION</P>
+            </DIV>
+            <DIV class="FEATURE-BOX">
+                <H3> CULTURL FEST</H3>
+                <P>DANCE & MUSIC</P>
+            </DIV>
+            <DIV class="FEATURE-BOX">
+                <H3> SPORTS DAY</H3>
+                <P> INDOOR & OUTDOOR GAMES</P>
+            </DIV>
+        </section>
+        <section class="GALLERY"><CENTER>
+        <IMG src="CLG1.jfif">
+            <IMG src="CLG2.jfif">
+                <img src="CLG3.jfif">
+                <img SRC="CLG4.JFIF">
+                <IMG SRC="CLG5.JFIF">
+                    <IMG SRC="CLG6.jfif">
+                  </CENTER>      
+        </section>
+        <CENTER>
+        <table>
+            <TR>
+                <TH> EVENTS NAME:</TH>
+                <TH> DATE:</TH>
+                <TH> FEE:</TH>
+            </TR>
+            <TR>
+                <TD> TECH FEST</TD>
+                <TD> 10 FEB</TD>
+                <TD> 200</TD>
+            </TR>
+            <TR>
+                <TD> SPORTS DAY</TD>
+                <TD> 20 FEB</TD>
+                <TD> 100</TD>
+            </TR>
+            <TR>
+                <TD> CULTURL FEST</TD>
+                <TD> 25 FEB</TD>
+                <TD>
+                100
+                </TD>
+            </TR>
+            
+        </table></CENTER>
+        
+        <A href="#" class="REGISTER-BTN"> REGISTER NOW</A>
+        <footer>
+            <P> 2026 VETRI ANGEL COLLEGE| EVENT MANAGEMENT SYSTEM</P>
+        </footer>
+     </body>
+</html>
+    
